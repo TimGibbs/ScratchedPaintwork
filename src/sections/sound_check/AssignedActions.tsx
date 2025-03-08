@@ -9,7 +9,8 @@ import signature from '../../assets/action_signature.svg'
 
 const AssignedActions = () => {
     return <div id="assigned_actions" className="anchor">
-        <Title order={2} pt="md">Assigned Actions</Title>
+        <Divider my="md"/>
+        <Title order={2}>Assigned Actions</Title>
         <Divider my="md"/>
         <Grid  pb="xs" gutter={{base: 5, xs: "md", md: "xl", xl: 50}}>
             <Grid.Col span={{base: 12, md: 6}}>

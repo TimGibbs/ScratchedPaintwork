@@ -3,7 +3,8 @@ import example_jockey_and_deck from "../../assets/example_jockey_and_deck.png";
 
 const ExampleDeckAndJockey = () => {
     return <div id="example_deck_and_jockey" className="anchor">
-        <Title order={2} pt="md">Example DECK & Jockey </Title>
+        <Divider my="md"/>
+        <Title order={2}>Example DECK & Jockey </Title>
         <Divider my="md"/>
         <Text>Each DECK and each Jockey has a card. Below is an example from the Dead Punks. Jockeys should normally
             be

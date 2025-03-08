@@ -1,4 +1,4 @@
-import {Divider, Image, List, Text, Title, Group, Grid, Stack} from "@mantine/core";
+import {Divider, Image, List, Text, Title, Grid, Stack} from "@mantine/core";
 import mech2 from "../../assets/mech2.png";
 
 const GeneralRules = () => {

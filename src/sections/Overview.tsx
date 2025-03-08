@@ -4,6 +4,7 @@ const Overview = () => {
 
 
     return <div id="overview"  className="anchor">
+        <Divider my="md"/>
         <Title order={2} style={{textAlign: "center"}}>Overview</Title>
         <Divider my="md" />
         <Grid gutter={{ base: 5, xs: 'md', md: 'xl', xl: 50 }}>

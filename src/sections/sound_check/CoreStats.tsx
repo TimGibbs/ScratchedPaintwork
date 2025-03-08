@@ -2,7 +2,8 @@ import {Divider, Grid, List, Text, Title} from "@mantine/core";
 
 const CoreStats = () => {
     return <div id="core_stats" className="anchor">
-        <Title order={2} pt="md" >Core Stats</Title>
+        <Divider my="md"/>
+        <Title order={2} >Core Stats</Title>
         <Divider my="md"/>
         <Grid gutter={{base: 5, xs: "md", md: "xl", xl: 50}}>
             <Grid.Col span={{base: 12, md: 6}}>
