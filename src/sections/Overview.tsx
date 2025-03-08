@@ -31,7 +31,7 @@ const Overview = () => {
                 <Text fs="italic" pb="xs">At least the music’s good.</Text>
             </Grid.Col>
             <Grid.Col span={{base: 12, md: 6}}>
-                <Title pb="md" order={3}>Gameplay</Title>
+                <Title pb="xs" order={3}>Gameplay</Title>
                 <Text  pb="xs"> Scratched Paintwork uses a combination of six
                     sided (d6) and ten-sided (d10) dice. Each player
                     needs two of each.</Text>
@@ -46,7 +46,7 @@ const Overview = () => {
                     timer should be started for 75 minutes. Once the
                     timer has gone, the players should complete the
                     Track, and then end the Record.</Text>
-                <Title pb="md" pt="md" order={3}>Track listing</Title>
+                <Title pb="xs" pt="md" order={3}>Track listing</Title>
                 <Text pb="xs"> This rulebook contains the following sections:</Text>
                 <List icon="⦿">
                     <List.Item>
