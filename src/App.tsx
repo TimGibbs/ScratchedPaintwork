@@ -27,7 +27,7 @@ function App() {
                             <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
                             <div style={{ fontFamily: 'punk_kid', fontSize: 30 }}>Scratched Paintwork</div>
                         </Group>
-                        <Text c="dimmed">Version 0.3 – Rules Test – March 2025</Text>
+                        <Text c="dimmed">Version 0.4 – Rules Test – March 2025 </Text>
                     </Group>
                 </AppShell.Header>
                 <CustomNavbar/>
