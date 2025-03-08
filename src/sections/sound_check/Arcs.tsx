@@ -1,4 +1,4 @@
-import {Divider, Grid, Group, Image, Stack, Text, Title} from "@mantine/core";
+import {Divider, Grid,  Image, Stack, Text, Title} from "@mantine/core";
 import example1 from '../../assets/arcs_example_1.svg'
 
 const Arcs = () => {

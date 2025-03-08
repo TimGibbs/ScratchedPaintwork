@@ -4,7 +4,7 @@ import example3 from '../../assets/move_example_3.svg'
 import example4 from '../../assets/move_example_4.svg'
 const Moving = () => {
     return <div id="moving" className="anchor">
-        <Title order={2} pt="md">General rules</Title>
+        <Title order={2} pt="md">Moving</Title>
         <Divider my="md"/>
         <Text pb="xs">When making a normal Move, move a DECK up to its SPD in inches. DECKs can move over friendly or enemy
             DECKs but they must be able to fully clear what its moving over. Any Move that takes a DECK’s base over

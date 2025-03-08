@@ -2,7 +2,7 @@ import {Divider, List, Text, Title} from "@mantine/core";
 
 const DiceTokensAndAllThatJazz = () => {
     return <div id="dice_tokens_and_all_that_jazz" className="anchor">
-        <Title order={2} pt="md">Dice, tokens and all that jazz</Title>
+        <Title order={2} pt="md">Dice, tokens, and all that jazz</Title>
         <Divider my="md"/>
         <Text>Scratched Paintwork uses a range of different tokens and dice to track status and actions.</Text>
         <List  icon="⦿">
