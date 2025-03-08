@@ -11,30 +11,27 @@ const AssignedActions = () => {
     return <div id="assigned_actions" className="anchor">
         <Title order={2} pt="md">Assigned Actions</Title>
         <Divider my="md"/>
-        <Grid gutter={{base: 5, xs: "md", md: "xl", xl: 50}}>
+        <Grid  pb="xs" gutter={{base: 5, xs: "md", md: "xl", xl: 50}}>
             <Grid.Col span={{base: 12, md: 6}}>
-                <Text> During the Intro Phase for each Track (game
+                <Text  pb="xs"> During the Intro Phase for each Track (game
                     round), players assign each of their DECKs at least
                     two <Text component="span" fw={500}>Action Dice</Text>. These set out what the DECK is
                     going to do when it activates.</Text>
-                <br/>
-                <Text> Both Action Dice can be set to the same action, but
+                <Text  pb="xs"> Both Action Dice can be set to the same action, but
                     this does not simply duplicate the action. The
                     effect of the single or double dice is set out in the
                     table below.</Text>
-                <br/>
-                <Text> Some effects, allow a player to assign more than
+                <Text  pb="xs"> Some effects, allow a player to assign more than
                     two dice to a DECK. You can never assign more
                     than two Action Dice to have the same action.</Text>
             </Grid.Col>
             <Grid.Col span={{base: 12, md: 6}}>
-                <Text> Action Dice are revealed when a DECK activates,
+                <Text  pb="xs"> Action Dice are revealed when a DECK activates,
                     except Evade dice which are revealed when the
                     DECK is attacked and some Signature abilities
                     (individually listed). </Text>
-                <br/>
                 <Text> Important notes: </Text>
-                <List>
+                <List  icon="⦿">
                     <List.Item>
                         <Text><Text component="span" fw={500}>Evading</Text>: Most actions happen when a DECK is
                             activated in the Main Phase of a Track. The
@@ -49,8 +46,6 @@ const AssignedActions = () => {
                 </List>
             </Grid.Col>
         </Grid>
-        <br/>
-
         <Table>
             <Table.Thead>
                 <Table.Tr>

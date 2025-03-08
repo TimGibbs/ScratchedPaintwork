@@ -6,6 +6,7 @@ import DiceTokensAndAllThatJazz from "./sound_check/DiceTokensAndAllThatJazz.tsx
 import GeneralRules from "./sound_check/GeneralRules.tsx";
 import AssignedActions from "./sound_check/AssignedActions.tsx";
 import Moving from "./sound_check/Moving.tsx";
+import Arcs from "./sound_check/Arcs.tsx";
 
 const SoundCheck = () => {
 
@@ -18,6 +19,7 @@ const SoundCheck = () => {
         <GeneralRules/>
         <AssignedActions/>
         <Moving/>
+        <Arcs/>
     </div>
 }
 

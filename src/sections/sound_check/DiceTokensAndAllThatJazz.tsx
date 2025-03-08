@@ -5,7 +5,7 @@ const DiceTokensAndAllThatJazz = () => {
         <Title order={2} pt="md">Dice, tokens and all that jazz</Title>
         <Divider my="md"/>
         <Text>Scratched Paintwork uses a range of different tokens and dice to track status and actions.</Text>
-        <List>
+        <List  icon="⦿">
             <List.Item>
                 <Text><Text component="span" fw={500}>Tokens</Text> should be placed on the battlefield next to the DECKs they
                 relate to. This includes Initiative tokens (used each round to

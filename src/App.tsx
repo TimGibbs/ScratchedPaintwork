@@ -4,7 +4,7 @@ import './App.css'
 // All packages except `@mantine/hooks` require styles imports
 import '@mantine/core/styles.css';
 
-import {MantineProvider, AppShell, Burger, Group, Text} from '@mantine/core';
+import {MantineProvider, AppShell, Burger, Group} from '@mantine/core';
 import {useDisclosure} from "@mantine/hooks";
 import CustomNavbar from "./components/custom_navbar/CustomNavbar.tsx";
 import Overview from "./sections/Overview.tsx";
@@ -27,7 +27,6 @@ function App() {
                             <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
                             <div style={{ fontFamily: 'punk_kid', fontSize: 30 }}>Scratched Paintwork</div>
                         </Group>
-                        <Text c="dimmed">Version 0.4 – Rules Test – March 2025 </Text>
                     </Group>
                 </AppShell.Header>
                 <CustomNavbar/>

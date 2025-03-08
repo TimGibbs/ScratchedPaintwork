@@ -21,7 +21,7 @@ const CustomNavbar =() => {
                 {label: "General rules", link: "#general_rules"},
                 {label: "Assigned actions", link: "#assigned_actions"},
                 {label: "Moving", link: "#moving"},
-                {label: "Arcs", link: ""},
+                {label: "Arcs", link: "#arcs"},
                 {label: "Jamming", link: ""},
                 {label: "Attacking", link: ""},
                 {label: "Weapon system traits", link: ""}
@@ -64,6 +64,7 @@ const CustomNavbar =() => {
             </div>
             <Text c='dimmed' size="xs">All text and game concepts copyright Ross Pearson.</Text>
             <Text c='dimmed' size="xs">All images used as placeholders only.</Text>
+            <Text c="dimmed" size="xs">Version 0.4 – Rules Test – March 2025 </Text>
         </AppShell.Section>
     </AppShell.Navbar>;
 }
