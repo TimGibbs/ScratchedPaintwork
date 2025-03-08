@@ -22,9 +22,10 @@ const CustomNavbar =() => {
                 {label: "Assigned actions", link: "#assigned_actions"},
                 {label: "Moving", link: "#moving"},
                 {label: "Arcs", link: "#arcs"},
-                {label: "Jamming", link: ""},
+                {label: "Jamming", link: "#jamming"},
                 {label: "Attacking", link: ""},
-                {label: "Weapon system traits", link: ""}
+                {label: "Weapon system traits", link: ""},
+                {label: "Tokens", link: ""}
             ]
             }/>
             <NavbarLinksGroup icon={IconMicrophone2} label={"The Performance"} links={[

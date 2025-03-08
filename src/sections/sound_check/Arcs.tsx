@@ -31,11 +31,11 @@ const Arcs = () => {
                 </Stack>
             </Grid.Col>
             <Grid.Col span={9}>
-                <Text pb="xs"><Text component="span" fw={500}>Example 1</Text>: In the diagram, the central DECK is attacking. The Green and Blue DECKs are valid targets
+                <Text pb="xs"><Text component="span" fw={500}>Example 1</Text>: The central DECK is attacking. The Green and Blue DECKs are valid targets
                     because a line can be drawn from the attacking DECK’s base, within its front arc, to a point on the target’s base.
                     The red DECK is not a valid target because a line cannot be drawn from the front arc to it.</Text>
-                <Text pb="xs"><Text component="span" fw={500}>Example 2</Text>: In the diagram, the central DECK is a target of an attack. When attacking, the Red DECK
-                    would gain the benefit of the Backshot rule (-1 DEF on the target) because its base is wholly within the target’s
+                <Text pb="xs"><Text component="span" fw={500}>Example 2</Text>: The central DECK is a target of an attack. When attacking, the Red DECK
+                    would gain the benefit of the Backshot rule because its base is wholly within the target’s
                     rear arc. The Blue DECK would not benefit from the rule however, as its base is not wholly within the target’s
                     rear arc. </Text>
             </Grid.Col>

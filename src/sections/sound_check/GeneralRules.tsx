@@ -3,7 +3,8 @@ import mech2 from "../../assets/mech2.png";
 
 const GeneralRules = () => {
     return <div id="general_rules" className="anchor">
-        <Title order={2} pt="md">General rules</Title>
+        <Divider my="md"/>
+        <Title order={2}>General rules</Title>
         <Divider my="md"/>
         <Grid gutter={{base: 5, xs: "md", md: "xl", xl: 50}}>
             <Grid.Col span={{base: 12, md: 8}}>

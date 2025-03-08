@@ -7,6 +7,7 @@ import GeneralRules from "./sound_check/GeneralRules.tsx";
 import AssignedActions from "./sound_check/AssignedActions.tsx";
 import Moving from "./sound_check/Moving.tsx";
 import Arcs from "./sound_check/Arcs.tsx";
+import Jamming from "./sound_check/Jamming.tsx";
 
 const SoundCheck = () => {
 
@@ -20,6 +21,7 @@ const SoundCheck = () => {
         <AssignedActions/>
         <Moving/>
         <Arcs/>
+        <Jamming/>
     </div>
 }
 
